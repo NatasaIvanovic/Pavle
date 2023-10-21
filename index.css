@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(242, 233, 215);
+    font-family: 'Times New Roman', Times, serif;
+}
+#korijen {
+    height: 100%;
+    display: flex;
+}
+#desna {
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    font-size: 18px;
+}
+#lijeva {
+    flex-grow: 1;
+    height: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
